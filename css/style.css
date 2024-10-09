@@ -69,7 +69,7 @@
 
 
 .section {
-    padding: 20px 0 ;
+    padding: 30px 0 ;
 }
 
 .hero {
@@ -87,3 +87,154 @@
     min-height: 200px;
 
 }
+
+.container-small {
+    width: 60%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    /* debug */
+    border: 2px solid coral;
+    min-height: 200px;
+
+}
+
+.row-cards{
+    display: flex;
+    justify-content: space-between;
+    /* row-gap: 10px; */
+
+}
+
+.col {
+    
+    width: calc(95% / 3);
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    min-height: 300px;
+
+}
+
+.card {
+    min-height: 400px;
+}
+
+.card-header {
+    padding: 20px;
+    background-color: darkseagreen;
+}
+
+.plan-title {
+    padding: 20px;
+}
+
+.radio {
+    padding: 20px;
+
+}
+
+.row-long-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    
+        background-color: pink;
+        color: black;
+        border: 1px solid black;
+        min-height: 300px;
+        width: 100%;
+        padding-top: 20px;
+        
+}
+
+
+.two-col{
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    
+}
+
+.col-70 {
+    width:70%;
+    background-color: khaki;
+}
+
+.col-30 {
+    width: 30%;
+    background-color: rgb(47, 238, 255);
+    border: 1px solid black;
+}
+-----
+.row-cards {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.col {
+
+    width: calc(96% / 3);
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    min-height: 300px;
+
+}
+
+.card {
+    min-height: 400px;
+}
+
+/* footer */
+
+.five-col {
+    display: flex;
+    /* border: 2px solid green; */
+    min-height: 300px;
+    padding-bottom: 10px;
+}
+
+.col-15 {
+    background-color: #20B2AA;
+    width: 40%;
+    border: 1px solid black;
+}
+
+
+.col-40 {
+    background-color: #20B2AA;
+    width: 40%;
+    border: 1px solid black;
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    height: 40px;
+    margin-top: 15px;
+    padding: 20px 0px 20px;
+    align-items: center;
+}
+
+.footer {
+    background-color: #23272A;
+    padding-top: 15px;
+} 
+
+.item1 {
+    background-color: #FFB6C1;
+    padding: 5px;
+    border: 1px solid #23272A;
+} 
+
+
+
