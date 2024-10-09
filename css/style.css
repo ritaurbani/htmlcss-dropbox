@@ -184,10 +184,15 @@
 }
 
 
-.card-grid {
+/* .card-grid {
     /* min-height: 100px; */
 
+
+
+.text-container {
+    border: 1px solid black;
 }
+
 
 /* footer */
 
