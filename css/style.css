@@ -1,12 +1,12 @@
 /* reset */
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
-    
+
 .container {
     width: 80%;
     max-width: 1100;
@@ -20,14 +20,14 @@
     padding: 10px;
 
     /* debug */
-     background-color:blanchedalmond;
-     border: 1px solid blue;
+    background-color: blanchedalmond;
+    border: 1px solid blue;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 
@@ -37,7 +37,7 @@
     width: 20%;
     /* debug */
     /* border: 1px solid ; */
-     
+
 }
 
 .col2 {
@@ -54,7 +54,7 @@
     display: flex;
     list-style: none;
     margin-left: 8px;
-    
+
 
 }
 
@@ -69,17 +69,17 @@
 
 
 .section {
-    padding: 30px 0 ;
+    padding: 30px 0;
 }
 
 .hero {
 
-    background-color:darkseagreen;
+    background-color: darkseagreen;
 }
 
 .container-big {
     width: 70%;
-    max-width:900px;
+    max-width: 900px;
     margin: 0 auto;
 
     /* debug */
@@ -99,7 +99,7 @@
 
 }
 
-.row-cards{
+.row-cards {
     display: flex;
     justify-content: space-between;
     /* row-gap: 10px; */
@@ -107,7 +107,7 @@
 }
 
 .col {
-    
+
     width: calc(95% / 3);
     background-color: pink;
     color: black;
@@ -140,26 +140,26 @@
 }
 
 .box {
-    
-        background-color: pink;
-        color: black;
-        border: 1px solid black;
-        min-height: 300px;
-        width: 100%;
-        padding-top: 20px;
-        
+
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    min-height: 300px;
+    width: 100%;
+    padding-top: 20px;
+
 }
 
 
-.two-col{
+.two-col {
     display: flex;
     justify-content: space-between;
     min-height: 300px;
-    
+
 }
 
 .col-70 {
-    width:70%;
+    width: 70%;
     background-color: khaki;
 }
 
@@ -168,27 +168,25 @@
     background-color: rgb(47, 238, 255);
     border: 1px solid black;
 }
------
-.row-cards {
+
+.row-grid {
     display: flex;
     justify-content: space-between;
-    row-gap: 10px;
+    flex-direction: row;
     flex-wrap: wrap;
-
+    gap: 20px;
 }
 
-.col {
-
-    width: calc(96% / 3);
-    background-color: pink;
-    color: black;
+.col-grid {
+    width: calc((100% - 40px) / 3);
     border: 1px solid black;
-    min-height: 300px;
-
+    min-height: 100px;
 }
 
-.card {
-    min-height: 400px;
+
+.card-grid {
+    /* min-height: 100px; */
+
 }
 
 /* footer */
@@ -228,13 +226,10 @@
 .footer {
     background-color: #23272A;
     padding-top: 15px;
-} 
+}
 
 .item1 {
     background-color: #FFB6C1;
     padding: 5px;
     border: 1px solid #23272A;
-} 
-
-
-
+}
