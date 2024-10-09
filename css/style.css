@@ -20,7 +20,7 @@
     padding: 10px;
 
     /* debug */
-     background-color: azure;
+     background-color:blanchedalmond;
      border: 1px solid blue;
 }
 
@@ -65,4 +65,25 @@
 
 .menu2 li {
     margin-right: 20px;
+}
+
+
+.section {
+    padding: 20px 0 ;
+}
+
+.hero {
+
+    background-color:darkseagreen;
+}
+
+.container-big {
+    width: 70%;
+    max-width:900px;
+    margin: 0 auto;
+
+    /* debug */
+    border: 2px solid coral;
+    min-height: 200px;
+
 }
