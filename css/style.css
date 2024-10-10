@@ -67,6 +67,7 @@ body {
 }
 
 
+
 /* .text-center {text-align: center;} */
 
 /* .pad-left {padding-left: 10px;} */
@@ -265,18 +266,23 @@ top: 0; */
 .box {
     margin-top: 30px;
     color: black;
-    min-height: 300px;
     width: 100%;
     border: 1px solid black;
 }
 
+/* .long-card-body {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.mt-60 {margin-top: 60px;}
 
 .two-col {
     display: flex;
     justify-content: space-between;
     min-height: 300px;
-
 }
+
 
 .col-60 {
     width: 60%;
