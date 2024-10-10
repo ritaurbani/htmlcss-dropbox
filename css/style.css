@@ -45,8 +45,34 @@ body {font-family: sans-serif;}
 
 .mb-30 {margin-bottom: 30px;}
 
+.mt-30 {margin-top: 30px;}
+
+/* .pad-left {padding-left: 10px;} */
+
+/* BACKGROUND */
+
 /* TEXT AND PARAGRAPH */
 
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    border-radius: 50px;
+    /* padding: 5px 10px; */
+    text-decoration: none;
+}
+
+.btn-light {
+    display: flex;
+    color: white;
+    background-color: #0061FE;
+}
+
+a {
+text-decoration: none;
+color: #767676;}
 
 /* HEADER */
 
@@ -66,15 +92,17 @@ body {font-family: sans-serif;}
 
 .col1 {
     display: flex;
-    width: 20%;
+    align-items: center;
+    /* width: 20%; RIMUOVERE WIDTH QUANDO ELEMENTI STRINGONO */
     /* debug */
-    border: 1px solid ;
+    /* border: 1px solid ; */
     
 }
 
 .col2 {
     display: flex;
-    width: 20%;
+    align-items: center;
+    /* width: 20%; */
     /* debug */
     /* border: 1px solid; */
 }
@@ -84,11 +112,13 @@ body {font-family: sans-serif;}
     display: flex;
     list-style: none;
     margin-left: 8px;
+    
+    
 }
 
 .menu1 li {
     margin-left: 8px;
-    list-style: none;
+    list-style: none;  
 }
 
 .menu2 li {
@@ -97,7 +127,7 @@ body {font-family: sans-serif;}
 
 /* HERO */
 
-/* .hero-pic {margin-bottom: -50px;} */
+.hero-pic {margin-bottom: -80%;}
 
 .hero {
 
@@ -155,9 +185,9 @@ body {font-family: sans-serif;}
 
     margin-top: 30px;
     color: black;
-    border: 1px solid black;
     min-height: 300px;
     width: 100%;
+    border: 1px solid black;
 }
 
 
@@ -171,13 +201,13 @@ body {font-family: sans-serif;}
 .col-60 {
     width: 60%;
     /* background-color: khaki; */
-        border: 1px solid black;
+        /* border: 1px solid black; */
 }
 
 .col-40 {
     width: 40%;
     /* background-color: rgb(47, 238, 255); */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .row-grid {
