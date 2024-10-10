@@ -47,9 +47,13 @@ body {font-family: sans-serif;}
 
 .mt-30 {margin-top: 30px;}
 
+/* .text-center {text-align: center;} */
+
 /* .pad-left {padding-left: 10px;} */
 
 /* BACKGROUND */
+
+/* .bg-grey {} */
 
 /* TEXT AND PARAGRAPH */
 
@@ -64,6 +68,11 @@ body {font-family: sans-serif;}
     text-decoration: none;
 }
 
+.btn-hero {
+    display: inline-block;
+    padding: 0.8em 0.2em;
+}
+
 .btn-light {
     display: flex;
     color: white;
@@ -72,7 +81,8 @@ body {font-family: sans-serif;}
 
 a {
 text-decoration: none;
-color: #767676;}
+color: #767676;
+text-align: center;}
 
 /* HEADER */
 
@@ -127,7 +137,14 @@ color: #767676;}
 
 /* HERO */
 
-.hero-pic {margin-bottom: -80%;}
+.hero-pic {margin-bottom: -80%;
+/* position: absolute; */
+/* right: 0;
+top: 0; */
+*
+}
+
+
 
 .hero {
 
@@ -155,8 +172,9 @@ color: #767676;}
     color: black;
     border: 1px solid black;
     min-height: 300px;
-
 }
+
+.rel {position: relative;}
 
 .card {
     min-height: 400px;
@@ -166,6 +184,14 @@ color: #767676;}
     padding: 20px;
     background-color: darkseagreen;
 }
+
+.main-title {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+/* MAIN */
 
 .plan-title {
     padding: 20px;
