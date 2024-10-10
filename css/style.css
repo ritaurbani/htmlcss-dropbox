@@ -7,75 +7,14 @@
 
 }
 
-.container {
-    width: 80%;
-    max-width: 1100;
-    margin: 0 auto;
-    /* debug */
-    border: 1px solid blue;
-    min-height: 100px;
-}
+img {width: 100%;}
 
-.header {
-    padding: 10px;
-
-    /* debug */
-    background-color: blanchedalmond;
-    border: 1px solid blue;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+body {font-family: sans-serif;}
 
 
 
-.col1 {
-    display: flex;
-    width: 20%;
-    /* debug */
-    /* border: 1px solid ; */
 
-}
-
-.col2 {
-    display: flex;
-    width: 20%;
-    /* debug */
-    /* border: 1px solid; */
-}
-
-
-
-.menu1,
-.menu2 {
-    display: flex;
-    list-style: none;
-    margin-left: 8px;
-
-
-}
-
-.menu1 li {
-    margin-left: 8px;
-    list-style: none;
-}
-
-.menu2 li {
-    margin-right: 20px;
-}
-
-
-.section {
-    padding: 30px 0;
-}
-
-.hero {
-
-    background-color: darkseagreen;
-}
+/* COMMON */
 
 .container-big {
     width: 70%;
@@ -96,6 +35,76 @@
     /* debug */
     border: 2px solid coral;
     min-height: 200px;
+}
+
+.section {
+    padding: 30px 0;
+}
+
+/* UTILITY */
+
+.mb-30 {margin-bottom: 30px;}
+
+/* TEXT AND PARAGRAPH */
+
+
+/* HEADER */
+
+.header {
+    padding: 10px;
+
+    /* debug */
+    /* background-color: blanchedalmond; */
+    border: 1px solid blue;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col1 {
+    display: flex;
+    width: 20%;
+    /* debug */
+    /* border: 1px solid ; */
+}
+
+.col2 {
+    display: flex;
+    width: 20%;
+    /* debug */
+    /* border: 1px solid; */
+}
+
+.menu1,
+.menu2 {
+    display: flex;
+    list-style: none;
+    margin-left: 8px;
+}
+
+.menu1 li {
+    margin-left: 8px;
+    list-style: none;
+}
+
+.menu2 li {
+    margin-right: 20px;
+}
+
+
+.hero {
+
+    background-color: #B4D0E6;
+    
+}
+
+.row-hero {
+    display: flex;
+        justify-content: space-between;
+        min-height: 300px;
 
 }
 
@@ -158,14 +167,15 @@
 
 }
 
-.col-70 {
-    width: 70%;
-    background-color: khaki;
+.col-60 {
+    width: 60%;
+    /* background-color: khaki; */
+        border: 1px solid black;
 }
 
-.col-30 {
-    width: 30%;
-    background-color: rgb(47, 238, 255);
+.col-40 {
+    width: 40%;
+    /* background-color: rgb(47, 238, 255); */
     border: 1px solid black;
 }
 
@@ -210,12 +220,13 @@
 }
 
 
-.col-40 {
-    background-color: #20B2AA;
+/* .col-40 {
+    
     width: 40%;
     border: 1px solid black;
+    background-color: #20B2AA;
 
-}
+} */
 
 
 .flex {
