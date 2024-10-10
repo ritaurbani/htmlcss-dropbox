@@ -7,9 +7,13 @@
 
 }
 
-img {width: 100%;}
+img {
+    width: 100%;
+}
 
-body {font-family: sans-serif;}
+body {
+    font-family: sans-serif;
+}
 
 
 
@@ -43,9 +47,13 @@ body {font-family: sans-serif;}
 
 /* UTILITY */
 
-.mb-30 {margin-bottom: 30px;}
+.mb-30 {
+    margin-bottom: 30px;
+}
 
-.mt-30 {margin-top: 30px;}
+.mt-30 {
+    margin-top: 30px;
+}
 
 /* .text-center {text-align: center;} */
 
@@ -70,19 +78,23 @@ body {font-family: sans-serif;}
 
 .btn-hero {
     display: inline-block;
-    padding: 0.8em 0.2em;
+    padding: 0.8em 0.6em;
 }
 
 .btn-light {
-    display: flex;
     color: white;
     background-color: #0061FE;
 }
 
 a {
-text-decoration: none;
-color: #767676;
-text-align: center;}
+    text-decoration: none;
+    color: #767676;
+    text-align: center;
+}
+
+/* ICONS */
+
+/* .fa-solid fa-arrow-down {} */
 
 /* HEADER */
 
@@ -106,7 +118,6 @@ text-align: center;}
     /* width: 20%; RIMUOVERE WIDTH QUANDO ELEMENTI STRINGONO */
     /* debug */
     /* border: 1px solid ; */
-    
 }
 
 .col2 {
@@ -122,13 +133,11 @@ text-align: center;}
     display: flex;
     list-style: none;
     margin-left: 8px;
-    
-    
 }
 
 .menu1 li {
     margin-left: 8px;
-    list-style: none;  
+    list-style: none;
 }
 
 .menu2 li {
@@ -137,25 +146,23 @@ text-align: center;}
 
 /* HERO */
 
-.hero-pic {margin-bottom: -80%;
-/* position: absolute; */
-/* right: 0;
+.hero-pic {
+    margin-bottom: -80%;
+    width: 140%
+    /* position: absolute; */
+    /* right: 0;
 top: 0; */
-*
 }
-
-
 
 .hero {
 
     background-color: #B4D0E6;
-    
 }
 
 .row-hero {
     display: flex;
-        justify-content: space-between;
-        min-height: 300px;
+    justify-content: space-between;
+    min-height: 300px;
 
 }
 
@@ -174,7 +181,9 @@ top: 0; */
     min-height: 300px;
 }
 
-.rel {position: relative;}
+.rel {
+    position: relative;
+}
 
 .card {
     min-height: 400px;
@@ -227,7 +236,7 @@ top: 0; */
 .col-60 {
     width: 60%;
     /* background-color: khaki; */
-        /* border: 1px solid black; */
+    /* border: 1px solid black; */
 }
 
 .col-40 {
@@ -305,4 +314,9 @@ top: 0; */
     background-color: #FFB6C1;
     padding: 5px;
     border: 1px solid #23272A;
+}
+
+
+label {
+    cursor: pointer;
 }
