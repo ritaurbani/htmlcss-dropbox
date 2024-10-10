@@ -68,7 +68,8 @@ body {font-family: sans-serif;}
     display: flex;
     width: 20%;
     /* debug */
-    /* border: 1px solid ; */
+    border: 1px solid ;
+    
 }
 
 .col2 {
@@ -94,6 +95,9 @@ body {font-family: sans-serif;}
     margin-right: 20px;
 }
 
+/* HERO */
+
+/* .hero-pic {margin-bottom: -50px;} */
 
 .hero {
 
@@ -118,7 +122,6 @@ body {font-family: sans-serif;}
 .col {
 
     width: calc(95% / 3);
-    background-color: pink;
     color: black;
     border: 1px solid black;
     min-height: 300px;
@@ -150,13 +153,11 @@ body {font-family: sans-serif;}
 
 .box {
 
-    background-color: pink;
+    margin-top: 30px;
     color: black;
     border: 1px solid black;
     min-height: 300px;
     width: 100%;
-    padding-top: 20px;
-
 }
 
 
