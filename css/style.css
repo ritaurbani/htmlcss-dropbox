@@ -15,9 +15,6 @@ body {
     font-family: sans-serif;
 }
 
-
-
-
 /* COMMON */
 
 .container-big {
@@ -99,7 +96,7 @@ body {
 .btn-hero {
     display: inline-block;
     padding: 0.8em 0.6em;
-    margin: auto auto
+    /* margin: auto auto */
 }
 
 .btn-light {
@@ -128,8 +125,10 @@ a {
 }
 
 
-
 /* ICONS */
+
+.check {color: #0061FE;
+font-weight: bold;}
 
 /* .fa-solid fa-arrow-down {} */
 
